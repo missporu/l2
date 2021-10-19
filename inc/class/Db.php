@@ -15,9 +15,9 @@ class Db {
 
     protected $defaults = array(
         'host'      => 'localhost',
-        'user'      => 'root',
-        'pass'      => '',
-        'db'        => 'base',
+        'user'      => 'sql_new_misspo_r',
+        'pass'      => 'dmh2ZWYhJJHssDWL',
+        'db'        => 'sql_new_misspo_r',
         'port'      => NULL,
         'socket'    => NULL,
         'pconnect'  => FALSE,
