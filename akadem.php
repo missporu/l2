@@ -7,6 +7,7 @@ if($users->getUser('akadem') > 6) {
     $site->session_err("Вы уже прошли обучение, изменить данные теперь можно из панели управления профилем", "/");
 }
 
+
 function aka_update($value1) {
     global $site, $users;
     if ($users->getUser('akadem') < 7 and $users->getUser('akadem') != $value1) {
