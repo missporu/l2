@@ -1,0 +1,12 @@
+<component name="CopyrightManager">
+  <settings default="misspo">
+    <module2copyright>
+      <element module="All" copyright="misspo" />
+    </module2copyright>
+    <LanguageOptions name="PHP">
+      <option name="addBlankAfter" value="false" />
+      <option name="separateBefore" value="true" />
+      <option name="lenBefore" value="1" />
+    </LanguageOptions>
+  </settings>
+</component>

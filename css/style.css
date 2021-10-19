@@ -1,0 +1,49 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    background-image: url(/pic/fon.jpeg);
+    min-height: 100vh !important;
+}
+body {
+    max-width: 540px;
+    background-color: #fff;
+    margin: 0px auto;
+    color: #000;
+    min-height: 100vh !important;
+}
+.container {
+    width: 100% !important;
+}
+
+button, input, optgroup, select, textarea {
+    color: #000 !important;
+}
+.btn-info {
+    color: #fb007f;
+    background-color: #3328dac9;
+    border-color: #5d46da;
+}
+.text-green {
+    color: green;
+}
+.text-gold {
+    color: gold;
+}
+.text-black {
+    color: #000;
+}
+.text-yellow {
+    color: yellow;
+}
+.text-red {
+    color: red;
+}
+a {
+    color: red;
+}
+a.btn-info {
+    color: #000;
+}
