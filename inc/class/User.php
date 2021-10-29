@@ -71,8 +71,8 @@ class User {
 		exit;
 	}
 
-	public function add_narushenie() {
-        (new Db())->query("update users set narushenie = narushenie + ?i where name = ?s", 1, $this->getUser('name'));
+	public function add_narushenie($user) {
+        (new Db())->query("update users set narushenie = narushenie + ?i where name = ?s", 1, $user);
     }
 
 	public function addMoney($value) {
